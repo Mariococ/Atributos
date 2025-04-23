@@ -1,0 +1,155 @@
+body {
+    font-family: nunito, sans-serif;
+
+    padding: 25px;
+    margin: auto;
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #F2F3F4;
+}
+
+
+
+html {
+    -webkit-text-size-adjust: 100%;
+    height: -webkit-fill-available;
+    font-family: Nunito, 'Open sans', sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.2px;
+    line-height: 1.5rem;
+}
+
+h1 {
+    color: #669bbc;
+    text-shadow: 0.5px 0.5px 0.5px black;
+}
+h1, h2 {
+    text-align: center;
+    padding: 7px;
+}
+ 
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+h2 {
+    font-size: 1.5em;
+    background-color: #B31B1B;
+    color: white;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+
+h3 {
+    font-size: 1.3em;
+    color: #669bbc;
+    text-shadow: 0 0 0.5px black;
+}
+
+
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+nav {
+    text-align: center;
+}
+
+nav {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+button {
+    color: #B31B1B;
+    font-variant: small-caps;
+    padding: 10px 25px;
+    font-size: .8em;
+}
+button:hover, .gri:hover {
+    color: rgb(253, 250, 250);
+    background-color: #fd0000;
+}
+button, .gri {
+    margin: 5px 50px;
+    border: inset 2px #B31B1B;
+    background-color: white;
+    border-radius: 5px;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+
+
+a[target="_blank"]::after {
+    content: url(https://ritadelatorre.github.io/atributos-css/img/target-blank.svg);
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-left: 2px;
+}
+a[target="_blank"] {
+    color: #00009C;
+    text-decoration: none;
+}
+
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+li > a {
+    text-decoration: none;
+}
+
+a:hover {
+    font-size: 1.1em;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li::before {
+    content: "★ ";
+    color: #f4a261;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 8px;
+}
+
